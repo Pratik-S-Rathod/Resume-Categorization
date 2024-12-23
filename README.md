@@ -2,22 +2,23 @@
 
 This application uses Machine Learning to automatically categorize resumes based on their content. It accepts PDF and DOCX files, processes them using a pre-trained model, and classifies them into predefined categories such as "Data Science", "Java Developer", "HR", and many others. Additionally, users can filter and download categorized resumes in CSV format.
 
-Features
-File Upload: Upload multiple PDF and DOCX files.
-Resume Categorization: Automatically categorize resumes into different job categories based on content using a pre-trained model.
-Category Distribution: Visualize resume distribution by category using bar charts.
-Word Cloud: Generate a word cloud for all the resumes to visualize commonly used words.
-Filter by Category: Filter the results by selecting a specific category from a dropdown.
-CSV Download: Download categorized results in CSV format for further analysis.
-Technologies Used
-Python: The primary programming language.
-Streamlit: For the user interface and app framework.
-Scikit-learn: For machine learning model and vectorization (TF-IDF).
-Matplotlib/Seaborn: For visualizations like bar charts.
-WordCloud: To generate word clouds for the uploaded resumes.
-Pandas: For data handling and manipulation.
-PyPDF2: For reading PDF files.
-python-docx: For reading DOCX files.
+<h4>Features</h4>
+File Upload: Upload multiple PDF and DOCX files.<br>
+Resume Categorization: Automatically categorize resumes into different job categories based on content using a pre-trained model.<br>
+Category Distribution: Visualize resume distribution by category using bar charts.<br>
+Word Cloud: Generate a word cloud for all the resumes to visualize commonly used words.<br>
+Filter by Category: Filter the results by selecting a specific category from a dropdown.<br>
+CSV Download: Download categorized results in CSV format for further analysis.<br>
+
+<h4>Technologies Used</h4>
+Python: The primary programming language.<br>
+Streamlit: For the user interface and app framework.<br>
+Scikit-learn: For machine learning model and vectorization (TF-IDF).<br>
+Matplotlib/Seaborn: For visualizations like bar charts.<br>
+WordCloud: To generate word clouds for the uploaded resumes.<br>
+Pandas: For data handling and manipulation.<br>
+PyPDF2: For reading PDF files.<br>
+python-docx: For reading DOCX files.<br>
 
 <h2>To run this project use the fillowing steps:</h2>
 
